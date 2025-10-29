@@ -1,0 +1,39 @@
+.fuel-gauge-container {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  border: 2px solid #00ff88;
+  text-align: center;
+}
+
+.fuel-gauge-container h3 {
+  margin: 0 0 15px 0;
+  color: #00ff88;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fuel-gauge-svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.fuel-warning {
+  margin-top: 10px;
+  color: #f44336;
+  font-size: 12px;
+  font-weight: bold;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0.3;
+  }
+}

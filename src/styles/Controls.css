@@ -1,0 +1,84 @@
+.controls-container {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  border: 2px solid #00ff88;
+  font-family: "Courier New", monospace;
+}
+
+.controls-container h3 {
+  margin: 0 0 20px 0;
+  color: #00ff88;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.controls-directional {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto 20px auto;
+}
+
+.control-button {
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #00ff88;
+  background: rgba(0, 255, 136, 0.1);
+  color: #00ff88;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 1;
+  user-select: none;
+}
+
+.control-button:disabled {
+  background: #333;
+  color: #666;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.control-button:hover:not(:disabled) {
+  background: rgba(0, 255, 136, 0.3);
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+}
+
+.controls-action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.controls-action-buttons button {
+  flex: 1;
+  max-width: 300px;
+}
+
+.status-indicator {
+  margin-top: 15px;
+  text-align: center;
+  color: #2196f3;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.controls-instructions {
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(0, 255, 136, 0.05);
+  border-radius: 6px;
+  font-size: 12px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.controls-instructions strong {
+  color: #00ff88;
+}

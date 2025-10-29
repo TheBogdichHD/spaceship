@@ -1,0 +1,61 @@
+.hull-integrity-container {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  border: 2px solid #00ff88;
+  min-height: 180px;
+}
+
+.hull-integrity-container h3 {
+  margin: 0 0 15px 0;
+  color: #00ff88;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hull-integrity-svg {
+  display: block;
+  margin: 0 auto;
+}
+
+.hull-percentage-display {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.hull-points {
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.hull-warning {
+  margin-top: 10px;
+  color: #f44336;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  animation: pulse 1.5s infinite;
+}
+
+.hull-destroyed {
+  margin-top: 5px;
+  color: #f44336;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
