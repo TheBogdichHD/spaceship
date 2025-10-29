@@ -9,5 +9,5 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: "./setupTests.js",
   },
-  base: "/<REPO>/",
+  base: "/spaceship/",
 });
